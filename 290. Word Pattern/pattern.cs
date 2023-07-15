@@ -11,10 +11,7 @@
             for (int i = 0; i < pattern.Length; i++)
             {
                 if (!dict.ContainsKey(pattern[i]))
-                {
-                   
                     dict[pattern[i]] = texts[i];
-                }
                 else
                 {
                     if (dict[pattern[i]] != texts[i])
